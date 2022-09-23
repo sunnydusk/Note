@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.home{
+    height: 100%;
+    overflow: hidden; /* 清除浮动 */
+}
+.content{
+    perspective: 340px;
+    width: 100%;
+    position: relative;
+}
+.stars{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 2px;
+    z-index: 999;
+    border-radius: 50%;
+    box-shadow: -447px 387px #c4c4c4, -401px 118px #fafafa, -109px 217px #d9d9d9;
+    animation: fly 15s linear infinite;
+    transform-style: preserve-3d;
+}
+
+.avatar_size{
+    width: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    position: absolute;
+    display: flex;  
+    justify-content: center;
+    margin-left: 45%;
+}
+.cent{
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0; 
+    top:13%;
+    margin: auto;
+}
+
+.stars::before,.stars::after{
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    box-shadow: inherit;
+}
+
+.title{
+    color: #fff;
+    font-size: 30px;
+    font-family: "楷体";
+    position: absolute;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 43%;
+}
