@@ -10,7 +10,7 @@
 .content{
     perspective: 340px;
     width: 100%;
-    position: relative;
+    position: relative;;
 }
 .stars{
     position: absolute;
@@ -48,9 +48,15 @@
 .n_home{
     position: absolute;
     display: flex;
-    margin-left: 80%;
+    margin-left: 75%;
     margin-top: 20px;
     font-size: 18px;
+}
+span a{
+    display: inline;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .stars::before,.stars::after{
@@ -63,7 +69,7 @@
 
 .title{
     color: #fff;
-    font-size: 30px;
+    font-size: 33px;
     font-family: "楷体";
     position: absolute;
     margin-top: 17px;
