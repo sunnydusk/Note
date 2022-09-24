@@ -83,12 +83,36 @@ a{
     width: 20px;
     height: 20px;
 }
-.PC{
-    display: inline;
+.PC {
     position: absolute;
-    right: 1px;
-    margin-top: 23px;
+    display: inline-block;
+    right: 25px;
+    margin-top: 12px;
 }
+.dropbtn {
+    background:rgba(143, 143, 143, 0.4);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.PC-content {
+    display: none;
+    position: absolute;
+    background:rgba(143, 143, 143, 0.4);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}/*默认隐藏*/
+.PC-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*下拉菜单链接*/
+.PC:hover .PC-content {
+    display: block;
+}/*鼠标显示下拉菜单*/
 @media screen and (min-width: 906px) {
     article {
         display: grid;
