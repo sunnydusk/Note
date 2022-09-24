@@ -79,6 +79,17 @@ a{
     margin-top: 17px;
     margin-left: 100px;
 }
+.memo{
+    width: 20px;
+    height: 20px;
+}
+.PC{
+    position: absolute;
+    right: 1px;
+    margin-top: 23px;
+    font-size: 18px;
+    width: 300px;
+}
 @media screen and (min-width: 906px) {
     article {
         display: grid;
@@ -92,5 +103,9 @@ a{
 
     .home .content,.home .content .centt{
         flex: 1;
+    }
+}
+@media screen and (min-width: 375px) { .PC{
+         display:none; 
     }
 }
