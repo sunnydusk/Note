@@ -84,11 +84,6 @@ a{
     height: 20px;
 }
 .PC{
-    position: absolute;
-    right: 1px;
-    margin-top: 23px;
-    font-size: 18px;
-    width: 300px;
     display: inline-block;
 }
 @media screen and (min-width: 906px) {
