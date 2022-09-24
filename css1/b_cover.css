@@ -128,7 +128,7 @@ a{
         flex: 1;
     }
 }
-@media screen and (max-width:1244px) { .PC{
+@media screen and (max-width:1244px) { .NET{
          display:none; 
     }
 }
