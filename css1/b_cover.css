@@ -132,6 +132,10 @@ a{
     .home .content,.home .content .centt{
         flex: 1;
     }
+
+    .dropbtn{
+        display: none;
+    }
 }
 @media screen and (max-width:1244px) { .NET{
          display:none; 
