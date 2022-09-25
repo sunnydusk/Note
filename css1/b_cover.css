@@ -119,7 +119,7 @@ a{
     display: block;
 }/*鼠标显示下拉菜单*/
 
-.h_text{
+.h_text1{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -144,15 +144,22 @@ a{
         display: flex;
     }
 
-    .home .content,.home .content .centt{
+    .home .content,.home .content .centt,.home .content .h_text{
         flex: 1;
     }
 
-    .dropbtn{
+    .dropbtn {
         display: none;
     }
+    /* .h_text2{
+        display: none;
+    } */
 }
 @media screen and (max-width:940px) { .NET{
          display:none; 
     }
+}
+@media screen and (max-width:940px) { .h_text2{
+    display:none; 
+}
 }
