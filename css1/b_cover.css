@@ -118,6 +118,21 @@ a{
 .PC:hover .PC-content {
     display: block;
 }/*鼠标显示下拉菜单*/
+
+.h_text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 210px;
+    margin: auto;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "仿宋";
+}
 @media screen and (min-width: 906px) {
     article {
         display: grid;
