@@ -24,7 +24,9 @@
     animation: fly 15s linear infinite;
     transform-style: preserve-3d;
 }
-
+.bga{
+    max-height: 100vh;
+}
 .avatar_size{
     width: 50px;
     width: 50px;
@@ -125,7 +127,7 @@ a{
     justify-content: center;
     left: 0;
     right: 0;
-    top: 210px;
+    top: 350px;
     margin: auto;
     bottom: 0;
     color: rgb(255, 255, 255);
