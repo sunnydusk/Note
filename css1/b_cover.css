@@ -134,6 +134,7 @@ a{
     font-size: 25px;
     font-weight: 500;
     font-family: "仿宋";
+    user-select: none;
 }
 @media screen and (min-width: 906px) {
     article {
