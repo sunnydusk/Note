@@ -65,10 +65,12 @@
     }
     .introduce_item_title{
         text-align: center;
-        margin-right: 20%;
+        margin-right: 10%;
+        width: 500px;
 
     }.introduce_item_titles{
         text-align: center;
-        margin-left: 20%;
+        margin-left: 10%;
+        width: 500px;
     }
 }
