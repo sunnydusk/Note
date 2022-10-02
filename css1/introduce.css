@@ -12,7 +12,7 @@
 .introduce_item {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .introduce_item_img {
@@ -21,21 +21,23 @@
 }
 
 .introduce_item_title {
-    width: 300px;
-    font-size: 18px;
-    line-height: 36px;
+    width: 450px;
+    font-size: 20px;
+    line-height: 30px;
     align-self: center;
-    padding-left: 100px;
+    padding-left: 110px;
     user-select: none;
+    font-family: "仿宋";
 }
 
 .introduce_item_titles {
-    width: 300px;
-    font-size: 18px;
-    line-height: 36px;
+    width: 450px;
+    font-size: 20px;
+    line-height: 30px;
     align-self: center;
-    padding-right: 100px;
+    padding-right: 110px;
     user-select: none;
+    font-family: "仿宋";
 }
 
 @media screen and (max-width: 200px) {
@@ -61,7 +63,12 @@
     .introduce_item_img {
         display: none;
     }
-    .introduce_item_title,.introduce_item_titles{
+    .introduce_item_title{
         text-align: center;
+        margin-right: 20%;
+
+    }.introduce_item_titles{
+        text-align: center;
+        margin-left: 20%;
     }
 }
