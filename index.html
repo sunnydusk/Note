@@ -8,20 +8,25 @@
     <title>清梦</title>
     <link rel="stylesheet" href="css1/b_cover.css">
     <link rel="stylesheet" href="css1/introduce.css">
+    
 </head>
 
 <body>
     <!-- <video autoplay loop style="display: none;" >
         <source src="music/多谢泪的告白.mp3">
     </video> -->
+
+    <!-- <embed src="music/多谢泪的告白.mp3" class="music"> -->
+    <audio id="music" autoplay="autoplay" loop="loop" src="music/多谢泪的告白.mp3">
+        <!-- autoplay="autoplay" controls="controls" loop="loop" -->
+    </audio>
     
-    <embed src="music/多谢泪的告白.mp3" width="0" height="0" class="music">
     <div class="home">
         <div class="content">
             <div class="stars"></div>
             <div class="centt">
                 <div class="cent"></div>
-                <img class="avatar_size" src="images/avater.jpg" alt="">
+                <img class="avatar_size" src="images/avater.jpg" alt="" onclick="musiccc()">
                 <h3 class="title">清梦</h3>
                 <div class="NET">
                     <ul>
@@ -79,6 +84,6 @@
 
     </div>
 </body>
-<!-- <iframe src="music/多谢泪的告白.mp3" allow="autoplay" style="display: none;"></iframe> -->
+<script type="text/javascript" src="js/music.js"></script>
 
 </html>

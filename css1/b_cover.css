@@ -35,10 +35,25 @@
     position: absolute;
     margin-top: 10px;
     margin-left: 15px;
+    animation-name: music;/*动画名称*/
+    animation-timing-function: linear;/*匀速旋转*/
+    animation-duration: 3s;
+    animation-iteration-count: infinite;/*旋转次数无数*/
 }
-.music{
-    position: absolute;
+
+@keyframes music{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(365deg);
+    }
 }
+
+
 .centt .cent{
     width: 100%;
     height: 75px;   
