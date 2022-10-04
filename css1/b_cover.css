@@ -35,7 +35,9 @@
     position: absolute;
     margin-top: 10px;
     margin-left: 15px;
-    
+}
+.msc{
+    display: none;
 }
 .centt .cent{
     width: 100%;
