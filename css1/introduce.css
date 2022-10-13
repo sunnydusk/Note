@@ -28,6 +28,7 @@
     padding-left: 110px;
     user-select: none;
     font-family: "仿宋";
+    text-indent: 2em;
 }
 
 .introduce_item_titles {
@@ -38,6 +39,7 @@
     padding-right: 110px;
     user-select: none;
     font-family: "仿宋";
+    text-indent: 2em;
 }
 
 @media screen and (max-width: 200px) {
